@@ -1,167 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>curriculum vitae</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Roboto+Mono:wght@200;300&family=Roboto:wght@100&display=swap');
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/icons/mg web icon.png">
+<title>Mc developer web</title>
 
 </head>
 <body>
-    <header class="cabezado">
-        <div class="nombrefoto">
-            <h1>
-                Miguel Carpio Contreras
-            </h1>
-
+    <!-- Navegation-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#intro">
+            <span class="d-block d-lg-none">{Miguel.Carpio}</span>
             
-
-            
-            <div class="nerd">
-                <img  id=subir src="img/geek.jpg" alt="jpg">
-            </div>
-            
-            <div class="redes">
-                <ul>
-                    <li>
-                        <a title="linkedin" href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-                    </li>
-                    <li>
-                        <a title="google" href="#"><img src="img/google+.png" alt="google"></a>
-                    </li>
-                    <li>
-                        <a title="facebook" href="#"><img src="img/facebook.png" alt="facebook"></a>
-                    </li>
-                    <li>
-                        <a title="twitter" href="#"><img src="img/twitter.png" alt="twitter"></a>
-                    </li>
-                </ul>
-            </div>
-            
-            
-            
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Educación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interests">Intereses</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto flex-row">
+                <li class="nav-item mr-2">
+                    <a class="social-icon" style="font-size:60px;color:white;" target="_blank" href="https://www.linkedin.com/in/miguel-carpio-contreras-790714229"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="social-icon" style="font-size:60px;color:white;" target="_blank" href="https://github.com/MgulCC"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+    <div class="container-lg">
+        <!-- Intro-->
+        <section id="intro">
+            
+            <div class="row py-5 mx-auto ">
+                <div class=" col-12 col-md-9 ">
+                    <img src="img/icons/logo.svg">
+                </div>
+                <div class="col-3 d-xs-block d-md-none"></div>
+                <div class="col-6 col-md-3 py-3 ">
+                    <span class=""><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/codes.jpg" alt="my picture" /></span>
+                </div>
+            </div>
         
-    </header>
-    <div class="bigdiv">
-        <main>
-            <div>
-                <ul>
+        </section>
+
+        <hr class="m-0" />
+        <!-- About-->
+        <section id="about">
+            <div class="row py-5 mx-auto ">
+                <h2 class=" col-12 mb-5">Acerca de mi...</h2>
+                <div class=" col-12 col-md-4">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/myPicture.jpg" alt="my picture" />
+                </div>
+                <div class="col-3 d-xs-block d-md-none"></div>
+                <div class="col-12 col-md-8 py-3 ">
+                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                </div>
+            </div>
+        
+        </section>
+
+        <hr class="m-0" />
+
+        <!-- Experience-->
+        <section id="experience">
+            <div class="row py-5 mx-auto">
+                <h2 class="mb-5">Experience</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Senior Web Developer</h3>
+                        <div class="subheading mb-3">Intelitec Solutions</div>
+                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Web Developer</h3>
+                        <div class="subheading mb-3">Intelitec Solutions</div>
+                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Junior Web Designer</h3>
+                        <div class="subheading mb-3">Shout! Media Productions</div>
+                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                </div>
+                
+            </div>
+        </section>
+
+        <hr class="m-0" />
+
+        <!-- Education-->
+        <section id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">University of Colorado Boulder</h3>
+                        <div class="subheading mb-3">Bachelor of Science</div>
+                        <div>Computer Science - Web Development Track</div>
+                        <p>GPA: 3.23</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">James Buchanan High School</h3>
+                        <div class="subheading mb-3">Technology Magnet Program</div>
+                        <p>GPA: 3.56</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Habilidades</h2>
+                <div class="subheading mb-3">Lenguages de programación y frameworks</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                </ul>
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
                     <li>
-                        <a href="#exp">Experiencia laboral</a>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Mobile-First, Responsive Design
                     </li>
                     <li>
-                        <a href="#educ">Educación</a>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Cross Browser Testing & Debugging
                     </li>
                     <li>
-                        <a href="#dat">Datos de interés</a>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Cross Functional Teams
                     </li>
                     <li>
-                        <a href="#foli">Portafolio</a>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Agile Development & Scrum
                     </li>
                 </ul>
             </div>
-        </main>
-
-        <section>
-            <article class="infor">
-                <div class="titulo">
-                    <img src="img/persona.svg" alt="SVG">
-                    <h3>Sobre mí</h3>
-                </div>
-                <p>
-                    
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros risus, 
-                    posuere at lorem sit amet, viverra mattis neque. 
-                    Pellentesque imperdiet augue a nunc sagittis, 
-                    sit amet ullamcorper turpis posuere. 
-                    Pellentesque vitae ex at nibh tempus ultricies. 
-                    Vestibulum gravida, erat ac ultricies porta, 
-                    quam ipsum aliquet lacus.
-                </p>
-                <h3>¿Que podría aportar a tu empresa?</h3>
-                <p>
-                    
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros risus, 
-                    posuere at lorem sit amet, viverra mattis neque. 
-                    Pellentesque imperdiet augue a nunc sagittis, 
-                    sit amet ullamcorper turpis posuere. 
-                    
-                </p>
-            </article>
-
-            <article class="infor">
-                <div class="titulo">
-                    <div></div>
-                    <img id="exp" src="img/maleta.svg" alt="SVG">
-                    <h3>Experiencia laboral</h3>
-                </div>
-                <ul>
-                    <li>Diciembre 2019– noviembre 2020 Camarero – Pub “The Garrison” (Jaén)</li>
-                    <li>Mayo 2018– Junio 2019 Especialista centro de datos – Iron mountain (Londres-RU)</li>
-                    <li>Enero 2017– Mayo 2018 Chef – Le pain qoutidien (oxford circus) (Londres-RU)</li>
-                    <li>Junio 2016– Diciembre 2016 Chef – Pix pintxos (Portobello) (Londres-RU)</li>
-                    <li>Octubre 2015– Junio 2016 Pinche de cocina – Pix pintxos (Canarby-Soho) (Londres-RU)</li>
-                    <li>Junio 2010 – Septiembre 2013 (temporadas de verano) Cartero – Unipost.S.A. (Jaén)</li>
-                    <li>2006 – 2013 (vacaciones de invierno) Recolección de aceituna (Jaén)</li>
-                    
-                </ul>
-                <a href="#subir" style="text-decoration:none"><img  src="img/up.png" alt="png"></a>
-            </article>
-
-            <article class="infor">
-                <div class="titulo">
-                    <img id="educ" src="img/estudiante.svg" alt="SVG">
-                    <h3>Educación</h3>
-                </div>
-                <ul>
-                    <li>Enero 2015 – Abril 2015 Curso de tanatopraxia (tanatorio “nuestra señora de los ángeles”, Getafe)</li>
-                    <li>Septiembre 2014 – Enero 2015 Ciclo superior de sonido ( I.E.S. Auringis, Jaén)</li>
-                    <li>Septiembre 2009 – Junio 2012 Ciclo superior de fotografía ( Escuela de arte José Nogué, Jaén)</li>
-                    <li>Septiembre 2007 – Junio 2009 Artefinal de diseño grafico ( Escuela de arte José Nogué, Jaén)</li>
-                    <li>Septiembre 2000 – Junio 2006 Educación secundaria ( I.E.S. Auringis, Jaén)</li>
-                </ul>
-                <a href="#subir" style="text-decoration:none"><img  src="img/up.png" alt="png"></a>
-            </article>
-
-            <article class="infor">
-                <div class="titulo">
-                    <img id="dat" src="img/lupa.svg" alt="SVG">
-                    <h3>Datos de interés</h3>
-                </div>  
-                <ul>
-                    <li>Idiomas: Español (nativo), Ingles (alto)</li>
-                    <li>Fecha de nacimiento: 04/06/1988</li>
-                    <li>Teléfono: +19293424687</li>
-                    <li>Email: thenerd@gmail.com</li>
-                    <li>Dirección: Calle albondiga, número 1,  1ºA, 23006, Jaén.</li>
-                    <li>Informática: Photoshop, indesing, microsoft office, mantenimiento básico de software.</li>
-                    <li>Permiso de circulación</li>
-                    <li>Disponibilidad geográfica</li>
-                </ul>
-                <a href="#subir" style="text-decoration:none"><img  src="img/up.png" alt="png"></a>
-            </article>
-
-            <article class="infor">
-                <div class="titulo">
-                    <img id="foli" src="img/rocket.svg" alt="SVG">
-                    <h3>Portafolio</h3>
-                </div>  
-                <ul>
-                    <li><a title="carpeta de trabajos" href="#"><img  src="img/carpeta.svg" alt="svg"> Trabajos recientes></a></li>
-                    
-                    <li><a title="carpeta de trabajos" href="#"><img  src="img/carpeta.svg" alt="svg"> Otros proyectos></a></li>
-                    
-                </ul>
-                <a href="#subir" style="text-decoration:none"><img  src="img/up.png" alt="png"></a>
-
-            </article>
         </section>
+        <hr class="m-0" />
+        <!-- Interests-->
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Interests</h2>
+                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+            </div>
+        </section>
+        <hr class="m-0" />
+       
+        
     </div>
-    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 </html>
