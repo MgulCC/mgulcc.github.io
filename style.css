@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,16 +9,13 @@ img{
 }
 
 body{
-    background: url(img/pictures/muro2.png) no-repeat center fixed;
+    background: url(img/background.png) no-repeat center fixed;
     background-size: cover;
+    font-family: 'Source Code Pro', monospace;
 }
 
-.container{
-    background-color: white;
-}
-
-.banner{
-    color: white;
+.dev-icons > li {
+    font-size:60px;
 }
 
 section{
@@ -30,6 +29,3 @@ section{
     height: auto;
 }
 
-footer > div {
-    max-height: 20%;
-}
