@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background: url(img/muro.png) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.dev-icons > li {
+    font-size:60px;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#enlaces{
+    max-width: 50%;
+    height: auto;
+}
+
