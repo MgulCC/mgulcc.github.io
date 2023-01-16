@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
-img{
+.container-lg > img{
     width: 100%;
 }
 
@@ -18,8 +18,14 @@ body{
     font-size:60px;
 }
 
-section{
+#intro, #about, #experience, #education, #skills{
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#hobbies {
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -27,5 +33,46 @@ section{
 #enlaces{
     max-width: 50%;
     height: auto;
+}
+
+.navbar > .collapse > .self-link > li > a, span, footer > .container {
+    color: white;
+}
+
+.social-icon{
+    font-size: 60px;
+    color: white;
+    
+}
+
+.social-icon:hover {
+    color: white;
+    
+}
+
+.social-icon > i {
+    transition: transform .2s;
+    
+}
+
+.social-icon > i:hover {
+    transform: scale(1.2);
+    
+}
+
+.signal-robots .change-robot:nth-of-type(2) {
+  display: none;
+}
+
+.signal-robots:hover .change-robot:nth-of-type(1) {
+  display: none;
+}
+
+.signal-robots:hover .change-robot:nth-of-type(2) {
+  display: block;
+}
+
+.change-robot {
+    width: 100px;
 }
 
